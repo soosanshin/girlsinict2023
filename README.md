@@ -26,13 +26,3 @@ gpio -g mode 21 output
 gpio -g write 21 1
 gpio readall  //여기서 21번핀이 output으로 바뀌고 v가 1이 되었는지 확인
 gpio -g write 21 0
-```
-### python<br/>
-```
-https://github.com/eleparts/raspi-AdvancedKit/blob/master/01.LED/led.py
-```
-
-## Buzzer<br/>
-```
-https://github.com/eleparts/raspi-AdvancedKit/blob/master/06.Piezo_buzzer/piezo_buzzer.py
-```
