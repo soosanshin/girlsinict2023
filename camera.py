@@ -12,7 +12,7 @@ camera.start_preview()
 try:
     while 1:
         if GPIO.input(switch) == 1:
-            camera.capture('/home/pi/capture.jpg')
+            camera.capture('capture.jpg')
 except KeyboardInterrupt:
     GPIO.cleanup()
     camera.stop_preview()
